@@ -2,8 +2,8 @@ package model.data_structures;
 
 public class NodoTS<K extends Comparable<K>, V> implements Comparable<NodoTS<K, V>> {
 
-	private K key; // objeto llave (Comparable)
-	private V value; // objeto de informacion asociado
+	public K key; // objeto llave (Comparable)
+	public V value; // objeto de informacion asociado
 
 
 	public NodoTS(K key, V value) {
